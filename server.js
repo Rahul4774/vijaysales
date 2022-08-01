@@ -4,9 +4,9 @@ var app=express();
 
 app.get("/",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Vijay Sales Home</h1>"
             +"<hr/>"
-            +"<h3>Smart Devices for sale</h3>"
+            +"<h3>Our Products</h3>"
             + "<br/>"
             + "<ol>"
             +"<li>Laptops</li>"
@@ -26,8 +26,8 @@ app.get("/aboutus",(req, res)=>{
             + "<br/>"
             + "<ol>"
             +"<li>Chief Mentor: Ravi Tambade</li>"
-            +"<li>Director: Shubhangi Tambade</li>"
-            +"<li>Subject Matter Expert: Rohit Gore</li>"
+            +"<li>Director: IACSD</li>"
+            +"<li>Subject Matter Expert: Ravi Sir</li>"
             + "</ol>"
     );
 });
